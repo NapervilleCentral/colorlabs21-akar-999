@@ -19,28 +19,31 @@ public class TestPicture17
   public static void main(String[] args)
   {
       //opens picture using a dialog box
-      /**/
+      /*
      String fileName = FileChooser.pickAFile();
      Picture pictObj = new Picture(fileName);
-     pictObj.explore();
+     pictObj.explore(); */
 
      //opens a pictue using a path
      //Picture apic = new Picture("C:\\Users\\khayes\\Favorites\\Documents\APCS- Java\chap03\Curriclum 2013\Picture Color labs\images\\beach.jpg");
      
-     //relative path
+     //Know it, Love it, Live it!!!!!!!!!!
+     //relative path        dir/folder/file
      Picture apic = new Picture("images\\beach.jpg");
      Picture ferris1 = new Picture("images/2000 ferris wheel2.jpg");
-     Picture ferris2 = new Picture("images/2000 ferris wheel2.jpg");
+     Picture moto = new Picture("images/redMotorcycle.jpg");
      Picture ferris3 = new Picture("images/2000 ferris wheel2.jpg");
 
      //apic.explore();
-     ferris1.explore();
+     moto.explore();
      
      //makes an array of pixels
+     Pixel[] pixels2;
      Pixel[] pixels;
      //gets pixels from picture and assigns to pixels array
-     pixels = ferris1.getPixels();
-    
+     pixels = moto.getPixels();
+     pixels2 = ferris1.getPixels();
+
      //how many pixels or how large array
     System.out.println("This is a large array"+pixels.length  );
 
@@ -49,16 +52,32 @@ public class TestPicture17
         //access each index
     System.out.println(pixels[17]);
     //access each pixel
-    Pixel spot = ferris1.getPixel(100,100);
+    Pixel spot = moto.getPixel(17,17);
+    
+    Pixel fer7 = pixels[17];
+    
+     
     
     System.out.println(pixels[17].getColor());
     System.out.println(spot);
-/*
-    pixels[17].setColor(Color.blue);
-    spot.setColor(new Color(252,252,252));
-    pixels[500034].setColor(Color.blue);
 
-    ferris1.explore();
+    pixels[17].setColor(Color.blue);
+    spot.setColor(new Color(0,0,0));
+    //pixels[500034].setColor(Color.blue);
+
+    moto.explore();
+    
+    for (int i = 0; i <10000; i++){
+    
+    
+    Pixel yuck = moto.getPixel((int)(Math.random() * 200), (int)(Math.random()*200));
+    yuck.setColor(Color.green);
+    
+    }
+    moto.explore();
+
+    
+    //ferris1.getPixels();
 /*
    // loop to access indexes of array or collection
 
