@@ -43,9 +43,18 @@ public class TestPicture17
      //gets pixels from picture and assigns to pixels array
      pixels = moto.getPixels();
      pixels2 = ferris1.getPixels();
+     
+     
+     
+     Pixel Mpixels;
 
      //how many pixels or how large array
     System.out.println("This is a large array"+pixels.length  );
+    
+    
+    
+    
+    
 
 
     /**/
@@ -71,7 +80,7 @@ public class TestPicture17
     
     
     Pixel yuck = moto.getPixel((int)(Math.random() * 200), (int)(Math.random()*200));
-    yuck.setColor(Color.green);
+    //pixels.setColor(Color.green);
     
     }
     moto.explore();
@@ -88,6 +97,29 @@ public class TestPicture17
 
    
  /**/
+ int red, blue, green;
+  for (Pixel spot1 : pixels){
+    //
+    red = spot1.getRed();
+    
+    red = (int)(red * Math.random());
+    
+    spot1.setRed(red);
+    
+    blue = spot1.getRed();
+    
+    blue = (int)(blue * Math.random());
+    
+    spot1.setBlue(blue);
+    
+    green = spot1.getGreen();
+    
+    green = (int)(green * Math.random());
+    
+    spot1.setGreen(green);
+    
+    }
+    moto.explore();
 
  /**
   * Method to clear red from picture
