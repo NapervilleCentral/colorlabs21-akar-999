@@ -1,4 +1,5 @@
 #BlueJ package file
+<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -12,6 +13,21 @@ package.editor.width=670
 package.editor.x=0
 package.editor.y=290
 package.frame.height=684
+=======
+editor.fx.0.height=728
+editor.fx.0.width=800
+editor.fx.0.x=542
+editor.fx.0.y=314
+objectbench.height=100
+objectbench.width=776
+package.divider.horizontal=0.6
+package.divider.vertical=0.8003731343283582
+package.editor.height=422
+package.editor.width=684
+package.editor.x=238
+package.editor.y=123
+package.frame.height=600
+>>>>>>> a6a21c5a97d24514819e89c9d1add2aaba70509c
 package.frame.width=800
 package.numDependencies=0
 package.numTargets=2
@@ -20,7 +36,11 @@ package.showUses=true
 project.charset=UTF-8
 readme.height=60
 readme.name=@README
+<<<<<<< HEAD
 readme.width=49
+=======
+readme.width=48
+>>>>>>> a6a21c5a97d24514819e89c9d1add2aaba70509c
 readme.x=10
 readme.y=10
 target1.height=50
@@ -28,6 +48,7 @@ target1.name=TestPicture17
 target1.naviview.expanded=false
 target1.showInterface=false
 target1.type=ClassTarget
+<<<<<<< HEAD
 target1.width=110
 target1.x=170
 target1.y=10
@@ -39,3 +60,22 @@ target2.type=ClassTarget
 target2.width=130
 target2.x=50
 target2.y=130
+=======
+target1.width=100
+target1.x=170
+target1.y=10
+target2.height=82
+target2.name=bookClasses
+target2.type=PackageTarget
+target2.width=120
+target2.x=310
+target2.y=70
+target3.height=50
+target3.name=SheparFaireyLab
+target3.naviview.expanded=true
+target3.showInterface=false
+target3.type=ClassTarget
+target3.width=120
+target3.x=190
+target3.y=300
+>>>>>>> a6a21c5a97d24514819e89c9d1add2aaba70509c

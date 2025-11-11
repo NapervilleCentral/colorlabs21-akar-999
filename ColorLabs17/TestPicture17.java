@@ -19,10 +19,17 @@ public class TestPicture17
   public static void main(String[] args)
   {
       //opens picture using a dialog box
+<<<<<<< HEAD
       /*
      String fileName = FileChooser.pickAFile();
      Picture pictObj = new Picture(fileName);
      pictObj.explore(); */
+=======
+      /**/
+     //String fileName = FileChooser.pickAFile();
+     //Picture pictObj = new Picture(fileName);
+     //pictObj.explore();
+>>>>>>> a6a21c5a97d24514819e89c9d1add2aaba70509c
 
      //opens a pictue using a path
      //Picture apic = new Picture("C:\\Users\\khayes\\Favorites\\Documents\APCS- Java\chap03\Curriclum 2013\Picture Color labs\images\\beach.jpg");
@@ -67,8 +74,17 @@ public class TestPicture17
     
      
     
+
+    
     System.out.println(pixels[17].getColor());
     System.out.println(spot);
+<<<<<<< HEAD
+=======
+
+    pixels[17].setColor(Color.blue);
+    spot.setColor(new Color(252,252,252));
+    pixels[24].setColor(Color.blue);
+>>>>>>> a6a21c5a97d24514819e89c9d1add2aaba70509c
 
     pixels[17].setColor(Color.blue);
     spot.setColor(new Color(0,0,0));

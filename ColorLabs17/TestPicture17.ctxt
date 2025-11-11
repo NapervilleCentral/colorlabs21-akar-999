@@ -2,5 +2,9 @@
 comment0.target=TestPicture17
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
+<<<<<<< HEAD
 comment1.text=\r\n\ main\ method,\ to\ test\ the\ picture\r\n\r\n
+=======
+comment1.text=\n\ main\ method,\ to\ test\ the\ picture\n\n
+>>>>>>> a6a21c5a97d24514819e89c9d1add2aaba70509c
 numComments=2

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ColorSquares
+comment0.text=\n\ Class\ that\ demonstrates\ creating\ buttons\ with\ different\ \n\ colors\ in\ a\ panel\n\ \n\ @author\ Barb\ Ericson\n
+comment1.params=
+comment1.target=ColorSquares()
+comment1.text=\n\ Constructor\ that\ takes\ no\ arguments\ \n
+comment2.params=
+comment2.target=void\ init()
+comment2.text=\n\ Method\ to\ initialize\ the\ panel\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

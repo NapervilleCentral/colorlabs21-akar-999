@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RectangleShape
+comment0.text=\n\ Class\ Rectangle\:\ \ inherits\ from\ Shape\ and\ draws\ a\ rectangle\n\ Copyright\ Georgia\ Institute\ of\ Technology\ 2007\n\ @author\ Barb\ Ericson\n
+comment1.params=
+comment1.target=RectangleShape()
+comment1.text=No\ argument\ constructor
+comment2.params=firstPoint\ lastPoint
+comment2.target=RectangleShape(java.awt.Point,\ java.awt.Point)
+comment2.text=\n\ Constructor\ that\ takes\ two\ points\ to\ define\ the\ shape\n\ @param\ firstPoint\ \ \ first\ point\ used\ in\ defining\ the\ shape\n\ @param\ lastPoint\ \ second\ point\ used\ in\ defining\ the\ shape\n
+comment3.params=x1\ y1\ x2\ y2
+comment3.target=RectangleShape(int,\ int,\ int,\ int)
+comment3.text=\n\ Constructor\ that\ takes\ x1,y1,x2,y2\n\ @param\ x1\ \ \ \ x\ value\ of\ the\ first\ point\ that\ defines\ the\ shape\n\ @param\ y1\ \ \ \ y\ value\ of\ the\ first\ point\ that\ defines\ the\ shape\n\ @param\ x2\ \ \ \ x\ value\ of\ the\ second\ point\ that\ defines\ the\ shape\n\ @param\ y2\ \ \ \ y\ value\ of\ the\ second\ point\ that\ defines\ the\ shape\n
+comment4.params=g
+comment4.target=void\ draw(java.awt.Graphics)
+comment4.text=\ Draw\ the\ shape\n\ @param\ g\ \ \ the\ graphics\ context\ on\ which\ to\ draw\n
+numComments=5

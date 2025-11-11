@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SoundException
+comment0.text=\n\ Class\ to\ use\ to\ report\ a\ sound\ exception\n\ \n\ Copyright\ Georgia\ Institute\ of\ Technology\ 2004\n\ @author\ Unknown\ Undergraduate\n\ @author\ Barb\ Ericson\ ericson@cc.gatech.edu\n
+comment1.params=message
+comment1.target=SoundException(java.lang.String)
+numComments=2

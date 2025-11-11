@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DatabaseManager
+comment0.text=\n\ Class\ that\ handles\ the\ connection\ with\ the\ database\n
+comment1.params=driver\ url
+comment1.target=DatabaseManager(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ that\ takes\ the\ driver\ name\ and\ url\n\ @param\ driver\ the\ class\ that\ communicates\ with\ the\ \n\ database\n\ @param\ url\ the\ url\ of\ the\ database\ as\ a\ string\n
+comment2.params=
+comment2.target=void\ testConnection()
+comment2.text=\n\ Method\ for\ testing\ the\ connection\n
+comment3.params=query\ numCols
+comment3.target=void\ testQuery(java.lang.String,\ int)
+comment3.text=\n\ Method\ to\ test\ a\ query\ and\ print\ the\ results\n\ @param\ query\ the\ query\ to\ execute\n\ @param\ numCols\ the\ number\ of\ columns\ in\ the\ result\n
+comment4.params=query
+comment4.target=java.lang.String\ getStringForQuery(java.lang.String)
+comment4.text=\n\ Method\ to\ execute\ a\ query\ and\ return\ a\ string\ of\ the\ \n\ first\ result\n\ @param\ query\ the\ query\ to\ execute\n\ @return\ the\ first\ result\ of\ the\ query,\ or\ null\ if\ none\n
+comment5.params=query
+comment5.target=java.util.List\ getListForQuery(java.lang.String)
+comment5.text=\n\ Method\ to\ execute\ a\ query\ and\ return\ a\ list\ of\ strings\n\ for\ the\ first\ returned\ row\n\ @param\ query\ the\ query\ to\ execute\n\ @return\ list\ of\ strings\ for\ the\ data\ in\ the\ first\n\ returned\ row,\ the\ list\ may\ be\ empty\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=main\ for\ testing
+numComments=7
