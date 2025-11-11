@@ -1,3 +1,5 @@
+package bookClasses.shapeExample;
+
 import java.awt.*;
 
 /**
