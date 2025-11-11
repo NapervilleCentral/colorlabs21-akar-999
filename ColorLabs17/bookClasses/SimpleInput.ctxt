@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SimpleInput
+comment0.text=\n\ Class\ to\ make\ it\ easy\ to\ get\ input\n\ from\ a\ user\ using\ JOptionPane\n\ \n\ Copyright\ Georgia\ Institute\ of\ Technology\ 2004\n\ @author\ Barb\ Ericson\ ericson@cc.gatech.edu\n
+comment1.params=message
+comment1.target=double\ getNumber(java.lang.String)
+comment1.text=\ \n\ Method\ to\ allow\ the\ user\ to\ input\ a\ number.\n\ the\ dialog\ will\ keep\ appearing\ till\ a\ valid\n\ number\ is\ input.\n\ @param\ message\ the\ message\ to\ display\ to\ \n\ the\ user\ in\ the\ dialog\n\ @return\ the\ number\ as\ a\ double\n
+comment2.params=message
+comment2.target=int\ getIntNumber(java.lang.String)
+comment2.text=\ \n\ Method\ to\ allow\ the\ user\ to\ input\ an\ integer.\n\ The\ dialog\ will\ keep\ appearing\ till\ a\ valid\n\ number\ is\ input.\n\ @param\ message\ the\ message\ to\ display\ to\ \n\ the\ user\ in\ the\ dialog\n\ @return\ the\ number\ as\ an\ integer\n
+comment3.params=message\ min\ max
+comment3.target=int\ getIntNumber(java.lang.String,\ int,\ int)
+comment3.text=\n\ Method\ to\ get\ an\ integer\ between\ a\ minimum\n\ and\ maximum\ (inclusive)\n\ @param\ message\ the\ message\ to\ display\ to\ \n\ @param\ min\ the\ minimum\ number\n\ @param\ max\ the\ maximum\ number\n\ @return\ the\ user\ entered\ integer\n
+comment4.params=message
+comment4.target=java.lang.String\ getDirectory(java.lang.String)
+comment4.text=\n\ Method\ to\ get\ the\ name\ of\ a\ directory\n\ @param\ message\ the\ message\ to\ display\ to\ the\ user\n\ @return\ the\ pathname\ for\ a\ directory\ \n
+comment5.params=message
+comment5.target=java.lang.String\ getString(java.lang.String)
+comment5.text=\n\ Method\ to\ get\ a\ string\ input\ by\ the\ user.\n\ The\ dialog\ will\ keep\ appearing\ till\ a\ \n\ string\ is\ entered.\n\ @param\ message\ the\ message\ to\ display\ to\n\ the\ user\n\ @return\ the\ input\ string\n
+numComments=6

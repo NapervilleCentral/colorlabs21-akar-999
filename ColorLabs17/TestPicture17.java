@@ -20,9 +20,9 @@ public class TestPicture17
   {
       //opens picture using a dialog box
       /**/
-     String fileName = FileChooser.pickAFile();
-     Picture pictObj = new Picture(fileName);
-     pictObj.explore();
+     //String fileName = FileChooser.pickAFile();
+     //Picture pictObj = new Picture(fileName);
+     //pictObj.explore();
 
      //opens a pictue using a path
      //Picture apic = new Picture("C:\\Users\\khayes\\Favorites\\Documents\APCS- Java\chap03\Curriclum 2013\Picture Color labs\images\\beach.jpg");
@@ -51,12 +51,14 @@ public class TestPicture17
     //access each pixel
     Pixel spot = ferris1.getPixel(100,100);
     
+
+    
     System.out.println(pixels[17].getColor());
     System.out.println(spot);
-/*
+
     pixels[17].setColor(Color.blue);
     spot.setColor(new Color(252,252,252));
-    pixels[500034].setColor(Color.blue);
+    pixels[24].setColor(Color.blue);
 
     ferris1.explore();
 /*

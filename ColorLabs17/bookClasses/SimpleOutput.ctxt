@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SimpleOutput
+comment0.text=\n\ Class\ to\ make\ it\ easy\ to\ do\ output\ to\ the\ user\n\ using\ JOptionPane\n\ \n\ Copyright\ Georgia\ Institute\ of\ Technology\ 2004\n\ @author\ Barb\ Ericson\ ericson@cc.gatech.edu\n
+comment1.params=message
+comment1.target=void\ showWarning(java.lang.String)
+comment1.text=\n\ Method\ to\ show\ a\ warning\ to\ a\ user\n\ @param\ message\ the\ message\ to\ display\n
+comment2.params=message
+comment2.target=void\ showError(java.lang.String)
+comment2.text=\n\ Method\ to\ show\ an\ error\ to\ a\ user\n\ @param\ message\ the\ message\ to\ display\n
+comment3.params=message
+comment3.target=void\ showInformation(java.lang.String)
+comment3.text=\n\ Method\ to\ show\ information\ to\ the\ user\n\ @param\ message\ the\ message\ to\ display\n
+comment4.params=message
+comment4.target=java.lang.String\ addNewLines(java.lang.String)
+comment4.text=\n\ Method\ to\ add\ new\ line\ character\ if\ the\ message\ \n\ is\ too\ long\n\ @param\ message\ the\ input\ message\n\ @return\ the\ message\ with\ new\ lines\ added\ if\ needed\n
+numComments=5

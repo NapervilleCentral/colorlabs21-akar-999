@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RegionInterface
+comment0.text=\ Interface\ for\ working\ with\ getting\ a\ region\ of\ an\ image\n\ Copyright\ Georgia\ Institute\ of\ Technology\ 2007\n\ @author\ Barb\ Ericson\ ericson@cc.gatech.edu\n
+comment1.params=image
+comment1.target=void\ setBackgroundImage(java.awt.image.BufferedImage)
+comment1.text=\ Method\ to\ set\ the\ background\ image\ to\ select\ the\ region\ from\ \n\ @param\ image\ the\ image\ to\ use\n
+comment2.params=
+comment2.target=void\ clearShapes()
+comment2.text=\n\ Method\ to\ clear\ the\ picked\ region\ (a\ shape)\n
+numComments=3

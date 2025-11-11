@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Geometry
+comment0.text=\n\ Class\ to\ hold\ methods\ for\ doing\ simple\ geometry\n\ All\ methods\ are\ static\ (class)\ methods.\ \ You\n\ do\ not\ need\ to\ create\ an\ object\ of\ the\ Geometry\n\ class\ to\ use\ these\ methods.\n\ @author\ Barb\ Ericson\ ericson@cc.gatech.edu\n\ Copyright\ 2005\n
+comment1.params=x1\ y1\ x2\ y2
+comment1.target=double\ getSlope(double,\ double,\ double,\ double)
+comment1.text=\n\ Method\ to\ get\ the\ slope\ between\ two\ points\n\ @param\ x1\ the\ x\ value\ for\ one\ of\ the\ points\n\ @param\ y1\ the\ y\ value\ for\ one\ of\ the\ points\n\ @param\ x2\ the\ x\ value\ for\ a\ second\ point\n\ @param\ y2\ the\ y\ value\ for\ a\ second\ point\n\ @return\ the\ slope\ \n
+comment2.params=x1\ y1\ x2\ y2
+comment2.target=double\ getSlopeAngle(double,\ double,\ double,\ double)
+comment2.text=\n\ Method\ to\ get\ the\ slope\ angle\ between\ 2\ points\n\ The\ slope\ angle\ is\ the\ interior\ angle\ of\ the\ \n\ triange\ of\ the\ slope\ line\ with\ the\ y\ and\ x\ axis.\n\ So\ it\ is\ the\ angle\ from\ the\ x\ axis.\ \ \n\ @param\ x1\ the\ x\ value\ for\ one\ of\ the\ points\n\ @param\ y1\ the\ y\ value\ for\ one\ of\ the\ points\n\ @param\ x2\ the\ x\ value\ for\ a\ second\ point\n\ @param\ y2\ the\ y\ value\ for\ a\ second\ point\n\ @return\ the\ slope\ angle\ in\ degrees\n
+comment3.params=x1\ y1\ x2\ y2
+comment3.target=double\ getTurtleHeading(double,\ double,\ double,\ double)
+comment3.text=\n\ Method\ to\ return\ the\ heading\ for\ a\ turtle\n\ which\ uses\ 0\ degrees\ as\ north\n\ @param\ x1\ x\ from\ the\ first\ point\n\ @param\ y1\ y\ from\ the\ first\ point\n\ @param\ x2\ x\ from\ the\ second\ point\n\ @param\ y2\ y\ from\ the\ second\ point\n\ @return\ the\ heading\ in\ degrees\ from\ north\n
+comment4.params=x1\ y1\ heading\ distance
+comment4.target=java.awt.Point\ getPointAtDistance(int,\ int,\ double,\ double)
+comment4.text=\n\ Method\ to\ get\ a\ new\ point\ at\ a\ given\ distance\ \n\ from\ an\ old\ point\ along\ a\ heading\ (angle\ in\ degrees)\n\ @param\ x1\ x\ of\ a\ point\n\ @param\ y1\ y\ of\ a\ point\n\ @param\ heading\ the\ heading\ in\ degrees\ with\ north\ \n\ being\ 0\ and\ south\ 180\n\ @param\ distance\ the\ distance\ for\ the\ returned\ point\n\ @return\ the\ point\ at\ the\ distance\ in\ the\ direction\n\ of\ the\ heading\n
+comment5.params=startPoint\ heading\ distance
+comment5.target=java.awt.Point\ getPointAtDistance(java.awt.Point,\ double,\ double)
+comment5.text=\n\ Method\ to\ get\ a\ new\ point\ at\ a\ given\ distance\ \n\ from\ an\ old\ point\ along\ a\ heading\ (angle\ in\ degrees)\n\ @param\ startPoint\ the\ point\ to\ get\ the\ distance\n\ from\n\ @param\ heading\ the\ heading\ in\ degrees\ with\ north\ \n\ being\ 0\ and\ south\ 180\n\ @param\ distance\ the\ distance\ for\ the\ returned\ point\n\ @return\ the\ point\ at\ the\ distance\ in\ the\ direction\n\ of\ the\ heading\n
+comment6.params=x1\ y1\ x2\ y2
+comment6.target=double\ getDistance(double,\ double,\ double,\ double)
+comment6.text=\n\ Method\ to\ get\ the\ distance\ between\ two\ points\n\ @param\ x1\ x\ value\ of\ first\ point\n\ @param\ y1\ y\ value\ of\ first\ point\n\ @param\ x2\ x\ value\ of\ second\ point\n\ @param\ y2\ y\ value\ of\ second\ point\n\ @return\ distance\ between\ the\ points\n
+numComments=7

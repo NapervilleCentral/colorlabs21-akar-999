@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Searcher
+comment0.text=\n\ Class\ that\ demonstrates\ search\ algorithms\n\ @author\ Mark\ Guzdial\n\ @author\ Barb\ Ericson\n
+comment1.params=target\ list
+comment1.target=java.lang.String\ linearFind(java.lang.String,\ java.lang.String[])
+comment1.text=\n\ Implement\ a\ linear\ search\ through\ the\ list\n
+comment2.params=target\ list
+comment2.target=java.lang.String\ binaryFind(java.lang.String,\ java.lang.String[])
+comment2.text=\n\ Method\ to\ use\ a\ binary\ search\ to\ find\ a\ target\ string\ in\ a\n\ sorted\ array\ of\ strings\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ Main\ for\ testing\ binary\ find\ \n
+numComments=4
