@@ -1,50 +1,110 @@
 
 /**
- * Write a description of class SheparFaireyLab here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Ayush
+ * Color Lab
+ * @author (Ayush)
  */
-import java.awt.*;
-import java.util.*;
-import java.util.List; // resolves problem with java.awt.List and java.util.List
+import java.awt.Color; // Import the correct Color class
 
-public class SheparFaireyLab
-{
-    /**
-     * main method, to test the picture
-     *  
-     */
-    public static void main(String[] args)
-    {
+public class SheparFaireyLab {
+    public static void main(String[] args) {
+        Picture p = new Picture("images/mypicture2.jpg");
+                Picture p2 = new Picture("images/mypicture2.jpg");
         
-         //opens selfie picture 
-          /**/
-         String fileName = FileChooser.pickAFile();
-         Picture pictObj = new Picture(fileName);
-         pictObj.explore();
-         
-         //relative path
-         Picture apic = new Picture("images\\beach.jpg");
-         //change with selfie picture
-         Picture me = new Picture("images/beach.jpg");
-         Picture me1 = new Picture("images/beach.jpg");
-         Picture me2 = new Picture("images/beach.jpg");
-         
-         /**
-          * method 1 change
-          * 
-          */
-         
-         /**
-          * method 2 change
-          * 
-          */
-         
-         /**
-          * custom color palette
-          */
+                
+        p.explore();
 
-         
-    }//main       
-}//class
+        Color color2 = new Color(253,251, 212);
+        Color color1 = new Color(40, 140, 220);
+        Color color3 = new Color(0, 25, 51);
+        Color color4 = new Color(204, 51, 51);
+        
+        Color color5 = new Color(110, 235, 255);
+        Color color6 = new Color(10, 15, 30);
+        Color color7 = new Color(40, 140, 220);
+        Color color8 = new Color(0, 25, 51);
+
+
+        
+        
+        Pixel[] Mpixels;
+        Mpixels = p.getPixels();
+        
+        for (int i = 0; i < Mpixels.length; i++){
+            
+            
+            int r = Mpixels[i].getRed();
+            int g = Mpixels[i].getGreen();
+            int b = Mpixels[i].getBlue();
+            
+            int average = (int)((r+g+b)/3);
+            
+            if (average < 64) {
+            
+                Mpixels[i].setColor(color1);}
+            
+            else if (average < 128) {
+            
+                        Mpixels[i].setColor(color2);}
+
+            else if (average < 192){
+            
+                        Mpixels[i].setColor(color3);}
+
+            else if (average < 256) {
+                        Mpixels[i].setColor(color4);}
+        
+        
+        
+        
+        }
+        p.explore();
+                Mpixels = p2.getPixels();
+
+        
+         for (int i = 0; i < Mpixels.length; i++){
+            
+            
+            int r = Mpixels[i].getRed();
+            int g = Mpixels[i].getGreen();
+            int b = Mpixels[i].getBlue();
+            
+            int average = (int)((r+g+b)/3);
+            
+            if (average < 64) {
+            
+            Mpixels[i].setColor(color8);}
+            
+            else if (average < 128) {
+            
+                        Mpixels[i].setColor(color7);}
+
+            else if (average < 192){
+            
+                        Mpixels[i].setColor(color6);}
+
+            else if (average < 256) {
+                        Mpixels[i].setColor(color5);}
+                        
+                        
+
+
+
+        
+        
+        
+        
+        
+        
+        }
+        p2.explore();
+        
+}
+}
+
+
+
+     
+     
+     
+     
