@@ -14,9 +14,9 @@ public class SheparFaireyLab {
                 
         p.explore();
 
-        Color color2 = new Color(253,251, 212);
-        Color color1 = new Color(40, 140, 220);
-        Color color3 = new Color(0, 25, 51);
+        Color color1 = new Color(253,83, 74);
+        Color color2 = new Color(247, 244, 215);
+        Color color3 = new Color(255, 255, 255);
         Color color4 = new Color(204, 51, 51);
         
         Color color5 = new Color(190, 20, 120);   // magenta
@@ -24,6 +24,12 @@ public class SheparFaireyLab {
         Color color7 = new Color(40, 0, 60);      // dark purple
         Color color8 = new Color(210, 80, 0);    // dark orange
         Color color9 = new Color(255, 255, 255);  // white
+        
+        //Color color5 = new Color(81,45,168);   // magenta
+        ///Color color6 = new Color(255,140,0);   // yellow
+        //Color color7 = new Color(54, 23, 94);      // dark purple
+        //Color color8 = new Color(156,39,176);    // dark orange
+        //Color color9 = new Color(255, 214, 0);  // white
 
         
         //rgb(0,0,0) done
