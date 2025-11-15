@@ -9,7 +9,7 @@ import java.awt.Color; // Import the correct Color class
 public class SheparFaireyLab {
     public static void main(String[] args) {
         Picture p = new Picture("images/mypicture2.jpg");
-                Picture p2 = new Picture("images/mypicture2.jpg");
+        Picture p2 = new Picture("images/mypicture2.jpg");
         
                 
         p.explore();
@@ -75,7 +75,8 @@ public class SheparFaireyLab {
         
         }
         p.explore();
-                Mpixels = p2.getPixels();
+        
+        Mpixels = p2.getPixels();
 
         
          for (int i = 0; i < Mpixels.length; i++){
@@ -87,7 +88,7 @@ public class SheparFaireyLab {
             
             int average = (int)((r+g+b)/3);
             
-                         if (average < 60)
+            if (average < 60)
                 Mpixels[i].setColor(color7);   // darkest purple
             else if (average < 110)
                 Mpixels[i].setColor(color5);   // magenta
@@ -97,21 +98,11 @@ public class SheparFaireyLab {
                 Mpixels[i].setColor(color6);   // yellow
             else
                 Mpixels[i].setColor(color9);   // white (face highlights)
-            ;
-
-                        
-
-
-
-        
-        
-        
-        
-        
-        
+            
+            
         }
         p2.explore();
-        p2.write("images/SF2.jpg");
+        p2.write("images/SFFinal.jpg");
         
 }
 }
