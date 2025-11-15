@@ -4,7 +4,7 @@
  * Color Lab
  * @author (Ayush)
  */
-import java.awt.Color; // Import the correct Color class
+import java.awt.Color; // Import the correct Color class;
 
 public class SheparFaireyLab {
     public static void main(String[] args) {
