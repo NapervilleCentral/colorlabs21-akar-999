@@ -13,10 +13,11 @@ public class SheparFaireyLab {
         
         p.explore();
 
-        Color color1 = new Color(253,83, 74);
-        Color color2 = new Color(247, 244, 215);
-        Color color3 = new Color(255, 255, 255);
-        Color color4 = new Color(204, 51, 51);
+        Color color1 = new Color(28, 39, 57);     // Darkest Blue
+        Color color2 = new Color(198, 44, 44);    // Muted Fairey Red
+        Color color3 = new Color(100, 133, 152);  // Muted Light Blue
+        Color color4 = new Color(245, 245, 240);  // Off-White Highlight
+    
         
         Color color5 = new Color(190, 20, 120);   // magenta
         Color color6 = new Color(255, 220, 60);   // yellow
@@ -24,7 +25,7 @@ public class SheparFaireyLab {
         Color color8 = new Color(210, 80, 0);    // dark orange
         Color color9 = new Color(255, 255, 255);  // white
         
-        // METHOD 1 - Your original balanced approach
+        // METHOD 1 - original balanced approach
         Pixel[] Mpixels;
         Mpixels = p.getPixels();
         
@@ -100,7 +101,7 @@ public class SheparFaireyLab {
         p3.explore();
         p3.write("images/SFMethod2.jpg");
         
-        // METHOD 3 - Your original custom color palette
+        // METHOD 3 - original custom color palette
         Mpixels = p2.getPixels();
         
         for (int i = 0; i < Mpixels.length; i++){
