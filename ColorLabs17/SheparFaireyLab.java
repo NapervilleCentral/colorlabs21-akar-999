@@ -89,13 +89,13 @@ public class SheparFaireyLab {
             int average = (int)((r+g+b)/3);
             
             if (average < threshold1) {
-                Mpixels[i].setColor(color1);  // Dark blue equivalent (using your color1)
+                Mpixels[i].setColor(color1);  // Dark blue equivalent (using color1)
             } else if (average < threshold2) {
-                Mpixels[i].setColor(color2);  // Red equivalent (using your color2)
+                Mpixels[i].setColor(color2);  // Red equivalent (using color2)
             } else if (average < threshold3) {
-                Mpixels[i].setColor(color3);  // Light blue equivalent (using your color3)
+                Mpixels[i].setColor(color3);  // Light blue equivalent (using color3)
             } else {
-                Mpixels[i].setColor(color4);  // Off-white equivalent (using your color4)
+                Mpixels[i].setColor(color4);  // Off-white equivalent (using color4)
             }
         }
         p3.explore();
