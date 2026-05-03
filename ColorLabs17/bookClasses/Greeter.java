@@ -1,4 +1,4 @@
-package bookClasses;
+ 
 
 /**
  * Class to show how to define a very simple class.

@@ -91,5 +91,20 @@ public class Picture extends SimplePicture
      Picture pictObj = new Picture(fileName);
      pictObj.explore();
   }
+  
+  public void mirrorTemple() {
+    int mirrorPoint = 276;
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+
+    for (int y = 27; y < 97; y++) {
+        for (int x = 13; x < mirrorPoint; x++) {
+            leftPixel = this.getPixel(x, y);
+            rightPixel = this.getPixel(mirrorPoint + (mirrorPoint - x), y);
+            rightPixel.setColor(leftPixel.getColor());
+        }
+    }
+}
+
 
 } // this } is the end of class Picture, put all new methods before this
