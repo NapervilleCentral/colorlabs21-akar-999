@@ -1,6 +1,7 @@
-public class CollageMaker {
-    public static void main(String[] args) {
-
+public class CollageMaker
+{
+    public static void main(String[] args)
+    {
         String basePath = "images/aot_sea.JPG";
         MyPicture source = new MyPicture(basePath);
 
@@ -22,10 +23,10 @@ public class CollageMaker {
         gray.grayscale();
         canvas.copy(gray, 2 * tileW, 0);
 
-        // sepia effect
-        MyPicture sepia = new MyPicture(basePath);
-        sepia.sepiaTint();
-        canvas.copy(sepia, 0, tileH);
+        // fractal inset effect
+        MyPicture fractal = new MyPicture(basePath);
+        fractal.recursiveInset();
+        canvas.copy(fractal, 0, tileH);
 
         // negative effect (inverse)
         MyPicture neg = new MyPicture(basePath);
