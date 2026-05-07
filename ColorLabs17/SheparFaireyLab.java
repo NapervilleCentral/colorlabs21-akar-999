@@ -7,9 +7,9 @@ import java.awt.Color; // Import the correct Color class;
 
 public class SheparFaireyLab {
     public static void main(String[] args) {
-        Picture p = new Picture("images/mypicture2.jpg");
-        Picture p2 = new Picture("images/mypicture2.jpg");
-        Picture p3 = new Picture("images/mypicture2.jpg"); // picture for method 2 (i did method 2 last)
+        Picture p = new Picture("images/rumbling.JPG");
+        Picture p2 = new Picture("images/rumbling.JPG");
+        Picture p3 = new Picture("images/rumbling.JPG"); // picture for method 2 (i did method 2 last)
         
         p.explore();
 
@@ -22,8 +22,8 @@ public class SheparFaireyLab {
         Color color5 = new Color(190, 20, 120);   // magenta
         Color color6 = new Color(255, 220, 60);   // yellow
         Color color7 = new Color(40, 0, 60);      // dark purple
-        Color color8 = new Color(210, 80, 0);    // dark orange
-        Color color9 = new Color(255, 255, 255);  // white
+        Color color8 = new Color(255, 120, 242);    // dark orange
+        Color color9 = new Color(0, 0, 0);  // white
         
         // METHOD 1 - original balanced approach
         Pixel[] Mpixels;
@@ -50,7 +50,6 @@ public class SheparFaireyLab {
         p.write("images/SFMethod1.jpg");
 
         
-        // METHOD 2 - INTENSE APPROACH (Dynamic thresholds based on actual image data)
         Mpixels = p3.getPixels();
         
         // First pass: find min and max grayscale values

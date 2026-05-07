@@ -2,7 +2,7 @@ public class CollageMaker
 {
     public static void main(String[] args)
     {
-        String basePath = "images/aot_sea.JPG";
+        String basePath = "images/SFFinal.JPG";
         MyPicture source = new MyPicture(basePath);
 
         int tileW = source.getWidth();
