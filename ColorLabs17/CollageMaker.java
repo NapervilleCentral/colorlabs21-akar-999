@@ -2,7 +2,7 @@ public class CollageMaker
 {
     public static void main(String[] args)
     {
-        String basePath = "images/SFFinal.JPG";
+        String basePath = "images/final_collage.JPG";
         MyPicture source = new MyPicture(basePath);
 
         int tileW = source.getWidth();
@@ -18,10 +18,10 @@ public class CollageMaker
         mirrored.mirrorVertical();
         canvas.copy(mirrored, tileW, 0);
 
-        // grayscale effect
-        MyPicture gray = new MyPicture(basePath);
-        gray.grayscale();
-        canvas.copy(gray, 2 * tileW, 0);
+        // edge detection 
+        MyPicture edge = new MyPicture(basePath);
+        edge.edgeDetection(6.7);
+        canvas.copy(edge, 2 * tileW, 0);
 
         // fractal inset effect
         MyPicture fractal = new MyPicture(basePath);
@@ -33,11 +33,11 @@ public class CollageMaker
         neg.negate();
         canvas.copy(neg, tileW, tileH);
 
-        // edge detection
-        MyPicture edge = new MyPicture(basePath);
-        edge.edgeDetection(5.0);
-        canvas.copy(edge, 2 * tileW, tileH);
-
+        // grayscale effect 
+        MyPicture gray = new MyPicture(basePath);
+        gray.grayscale();
+        canvas.copy(gray, 2 * tileW, tileH);
+        
         canvas.write("images/final_collage.jpg");
         canvas.explore();
     }

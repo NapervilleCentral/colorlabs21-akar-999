@@ -110,6 +110,9 @@ public class MyPicture extends SimplePicture
         int w = this.getWidth();
         int h = this.getHeight();
         Color[][] copy = new Color[w][h];
+        // Original RGB: 82, 183, 239
+        Color poop = new Color(255, 95, 31);
+    
 
         for (int y = 0; y < h; y++)
             for (int x = 0; x < w; x++)
@@ -126,9 +129,9 @@ public class MyPicture extends SimplePicture
                 double avg3 = (c3.getRed() + c3.getGreen() + c3.getBlue()) / 3.0;
 
                 if (Math.abs(avg1 - avg2) > threshold || Math.abs(avg1 - avg3) > threshold)
-                    this.getPixel(x, y).setColor(Color.BLACK);
+                    this.getPixel(x, y).setColor(poop);
                 else
-                    this.getPixel(x, y).setColor(Color.WHITE);
+                    this.getPixel(x, y).setColor(Color.BLACK);
             }
         }
     }
