@@ -2,7 +2,7 @@ public class CollageMaker
 {
     public static void main(String[] args)
     {
-        String basePath = "images/final_collage.JPG";
+        String basePath = "images/aot_sea.JPG";
         MyPicture source = new MyPicture(basePath);
 
         int tileW = source.getWidth();
@@ -13,19 +13,25 @@ public class CollageMaker
         // original image
         canvas.copy(source, 0, 0);
 
-        // vertical mirror
+        // vertical + horizontal mirror
         MyPicture mirrored = new MyPicture(basePath);
         mirrored.mirrorVertical();
+        mirrored.mirrorHorizontal();
         canvas.copy(mirrored, tileW, 0);
 
         // edge detection 
         MyPicture edge = new MyPicture(basePath);
+                edge.mirrorVertical();
+
         edge.edgeDetection(6.7);
+
         canvas.copy(edge, 2 * tileW, 0);
 
         // fractal inset effect
         MyPicture fractal = new MyPicture(basePath);
+
         fractal.recursiveInset();
+
         canvas.copy(fractal, 0, tileH);
 
         // negative effect (inverse)

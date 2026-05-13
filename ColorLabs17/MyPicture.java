@@ -45,10 +45,24 @@ public class MyPicture extends SimplePicture
     {
         int w = this.getWidth();
         int h = this.getHeight();
-        for (int y = 0; y < h; y++) {
+        for (int y = 0; y< h; y++) {
             for (int x = 0; x < w / 2; x++) {
                 Pixel left = this.getPixel(x, y);
-                Pixel right = this.getPixel(w - 1 - x, y);
+                Pixel right = this.getPixel(w-1-x,y);
+                right.setColor(left.getColor());
+            }
+        }
+    }
+    
+    // mirror horizontall
+    public void mirrorHorizontal()
+    {
+        int w = this.getWidth();
+        int h = this.getHeight();
+        for (int x = 0; x < w; x++) {
+            for (int y = 0; y < h / 2; y++) {
+                Pixel left = this.getPixel(x, y);
+                Pixel right = this.getPixel(x, h-1-y);
                 right.setColor(left.getColor());
             }
         }
@@ -110,7 +124,6 @@ public class MyPicture extends SimplePicture
         int w = this.getWidth();
         int h = this.getHeight();
         Color[][] copy = new Color[w][h];
-        // Original RGB: 82, 183, 239
         Color poop = new Color(255, 95, 31);
     
 
@@ -131,7 +144,7 @@ public class MyPicture extends SimplePicture
                 if (Math.abs(avg1 - avg2) > threshold || Math.abs(avg1 - avg3) > threshold)
                     this.getPixel(x, y).setColor(poop);
                 else
-                    this.getPixel(x, y).setColor(Color.BLACK);
+                    this.getPixel(x, y).setColor(Color.black);
             }
         }
     }
